@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".HOD"
+    tools:showIn="@layout/activity_hod"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/hodname"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Name"
+        android:background="@drawable/editbox"/>
+    <EditText
+        android:id="@+id/hodid"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:hint="HOD-id"
+        android:inputType="number"
+        android:background="@drawable/editbox"/>
+    <Spinner
+        android:id="@+id/spinhod"
+        android:entries="@array/dept"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:hint="Department"
+        android:inputType="text"
+        android:drawableRight="@drawable/bottom_arrow"
+        android:background="@drawable/editbox"/>
+    <EditText
+        android:id="@+id/hodemail"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/editbox"/>
+
+    <EditText
+        android:id="@+id/hodmobno"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:hint="Mobile-no"
+        android:inputType="number"
+        android:background="@drawable/editbox"/>
+    <EditText
+        android:id="@+id/hodpass"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:background="@drawable/editbox"/>
+
+
+
+    <Button
+        android:id="@+id/reg"
+        android:layout_width="130dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonstyleblue"
+        android:drawableRight="@drawable/ic_send_black_24dp"
+        android:fontFamily="sans-serif"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+    </LinearLayout>
+
+</LinearLayout>

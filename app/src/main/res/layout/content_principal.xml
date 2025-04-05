@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Principal"
+    tools:showIn="@layout/activity_principal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/prname"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Name"
+            android:background="@drawable/editbox"/>
+        <EditText
+            android:id="@+id/prid"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:hint="principal-id"
+            android:inputType="number"
+            android:background="@drawable/editbox"/>
+
+        <EditText
+            android:id="@+id/premail"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/editbox"/>
+
+        <EditText
+            android:id="@+id/prmobno"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:hint="Mobile-no"
+            android:inputType="number"
+            android:background="@drawable/editbox"/>
+        <EditText
+            android:id="@+id/prpass"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:background="@drawable/editbox"/>
+
+
+
+        <Button
+            android:id="@+id/prreg"
+            android:layout_width="130dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttonstyleblue"
+            android:drawableRight="@drawable/ic_send_black_24dp"
+            android:fontFamily="sans-serif"
+            android:text="Register"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+</LinearLayout>

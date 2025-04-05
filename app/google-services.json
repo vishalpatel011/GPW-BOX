@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "481352672871",
+    "firebase_url": "https://gpw-box-b7734.firebaseio.com",
+    "project_id": "gpw-box-b7734",
+    "storage_bucket": "gpw-box-b7734.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481352672871:android:e7743009ef354b598ad6c2",
+        "android_client_info": {
+          "package_name": "com.e.gpwbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "481352672871-v0jmjvbadh668cvaecs3ov9vjpid08f4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.e.gpwbox",
+            "certificate_hash": "b76b9d4ea24ba25c1ec7d833feb3ef35663387c9"
+          }
+        },
+        {
+          "client_id": "481352672871-ak8mnqg96b484q8mq8lii4i82eg62gl1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAONrFlo2LDUBoNYhIL-gAVCxBfZTsivNM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "481352672871-ak8mnqg96b484q8mq8lii4i82eg62gl1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

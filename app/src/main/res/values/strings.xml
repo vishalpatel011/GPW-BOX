@@ -1,0 +1,214 @@
+<resources>
+    <string name="app_name">GPW BOX</string>
+    <string name="learnmoredemo">
+        \n<b><font size="18">➢ Overview</font></b>\n
+\nThis is an Android based Application For the GPW (Government Polytechnic Waghai).
+
+\nThis Application is for improve the college quality system. With the help of this application
+The Students, Faculty and Heads can make their Contribution to make the College qualitySystem more better.
+
+\nThis Application Provides following Features
+
+\n1.Complaint Box
+\n2. Permission  Box
+\n3. Suggestion Box
+
+    </string>
+    <string name="use">
+                \n<b><font size="18">➢Overview</font></b>\n
+
+
+\nThis is an Android based Application For the GPW (Government Polytechnic Waghai).
+
+\nThis Application is for improve the college quality system. With the help of this application
+The Students, Faculty and Heads can make their Contribution to make the College qualitySystem more better.\n
+
+\nThis Application Provides following Features\n
+
+\n1.Complaint Box
+\n2. Permission  Box
+\n3. Suggestion Box\n
+
+        \no <u>1. Complaint Box:</u>
+
+\nWhere the Students and Faculty can put complaints. Which are related to college
+And send to the HOD (Head of department) And the Principal.\n
+
+        \no	<u>2. Suggestion Box:</u>
+
+\nWhere the Students and Faculty can give Suggestions  related to the college.
+Which goes to seen by the HOD (Head of department) and the Principal.\n
+
+        \no	<u>3. Permission Box:</u>
+
+\nWhere the Students can ask for the Permission (example: Functions, visits, etc…) Which goesTo the HOD (Head of department) and the Principal. They can give response it with “GRANT”Or  “REFUSE”.\n
+
+\nThis Application works on a Voting system. Where each Students and Faculty can react
+The Complaint, Suggestion and Permission by “POSITIVE” or “NEGATIVE” and give their opinion which Also that indicate they are agreed or disagreed with the Complaint /Permission /Suggestion.\n
+
+
+
+\n•	In this GPW-BOX ,if any Student want to put a Complaint, Suggestion or want to ask for Permission.
+
+\n•	Then they have this following options.\n
+
+\n1. Public Mode
+\n2. Private Mode
+\n3. Related to Department\n
+
+\n•	This all options in the system works on the voting system except the Private-mode.
+Where the Student can directly send the Complaint to the HOD (Head of department)
+Or to the Principal. And also Student has privacy that other Student can not see their complaint in the Private-Mode.\n
+
+        \no	<u>Public Mode:</u>
+
+\nThisPublic mode is generally use for the Complaint, Suggestion or Permission.
+Which are related to the whole college (example: functions, cleaning ,visits, etc..)
+
+\nWhile putting any Complaint, Suggestion or Permission in the GPW-BOX.
+If the Student select the Public mode.
+
+\nThen the Complaint, Suggestion, Permission will be display publicly among the all Students, Faculty And Heads of the college.
+
+        <u>\nExample:</u>
+Suppose, the Students want to organise a fresher party for the new-comers,then they can ask for the Permission to the HOD (Head of department) and to the Principal through this application. And the Hod (Head of Department) andPrincipal can Response them with “GRANT” or “REFUSE”.\n
+
+        \no	<u>Private Mode:</u>
+
+\nPrivate mode is for those Students who has their personal problems.
+Which they not comfortable to share among others. So that Students can select the private mode where the complaint will directly send to the HOD (Head of department)or to the Principal.
+
+
+
+
+
+\nIn this private mode the other Student are not able to see that private complaint.
+
+<u>\nExample:</u>
+\nIf male/female Student are bullied by any other Student. And they are not comfortable to share it among others. Then they can also put the complaint privately in the application using the Private-mode.
+Therefore the other Students are not able to see that private complaint.\n
+
+
+        \no	<u>Related to Department:</u>
+
+\nWhile selecting this option the Students can Complaint, Suggest or ask for Permission which is related to their department and it will send to the HOD (Head of department) of their own department.
+
+\nIt also works on the voting system where the other students of the department can see that Complaint, Suggestion or Permission  and they can vote “POSITIVE” or “NEGATIVE” to that Complaint
+
+<u>\nExample:</u>
+\nSuppose the Student want to Complaint for inefficient materials and un-proper tools for  study in their department.	 So they can put a Complaint using this option.\n\n
+
+        <b><font size="18">➢ Purpose</font></b>\n
+
+
+\n•	The main purpose of the Application is to improve the college quality system.
+Where the Heads and Faculty can aware to the problems which are related to the college and they can take actions against it
+
+\n•	If any Student of the College has a Complaint ,Suggestion or want to ask for the Permission then they can put it in this Application (GPW-BOX).
+
+Which goes to the HOD (Head of department) and to the Principal of the college.
+
+\n•	It works on a voting system, so when a student puts a Complaint or Suggestion than other students can vote to it with “POSITIVE” or “NEGATIVE” and can also share their opinion through it.
+
+\n•	The Faculty or Heads can also reply to the Students Complaints or Suggestions.\n
+
+
+
+\n<b><font size="18">➢ Goals of implementation</font></b>\n
+
+\n•	The main goal of the software it to maintain the quality system of the college by digitally using this Application.
+
+\n•	The students, Faculty and the Heads can easily communicate with each other through this application and solve the problems and requirements of the Students and the college.
+
+\n•	The Heads and Faculty can aware to the problems of the Students and issues of the college and take actions against it.
+
+\n•	All the problems and issues related to the college can be easily solved out  using this software.\n
+
+\n-	Easy  Communication
+\n-	Fast and Efficient
+\n-	Secure and Reliable
+\n-	Easy  to Use
+\n-	Better Error-Handling
+
+
+
+
+    </string>
+    <string name="list">Spinnerfact</string>
+    <string-array name="dept">
+        <item>Computer</item>
+        <item>Civil</item>
+        <item>Mechanical</item>
+    </string-array>
+    <string-array name="filtermsg">
+        <item>All Messages</item>
+        <item>All Complaints</item>
+        <item>All Permission</item>
+        <item>All Suggection</item>
+        <item>Computer</item>
+        <item>Machanical</item>
+        <item>Civil</item>
+    </string-array>
+    <string-array name="log">
+        <item>Student</item>
+        <item>Faculty</item>
+        <item>HOD</item>
+        <item>Principal</item>
+        <item>Admin</item>
+    </string-array>
+
+    <string-array name="msgtype">
+        <item>Complaint</item>
+        <item>Permission</item>
+        <item>Suggection</item>
+    </string-array>
+
+    <string-array name="mode">
+        <item>Public</item>
+        <item>Private</item>
+        <item>Related to Department</item>
+    </string-array>
+    <string name="intro">Welcome to GPW BOX</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_bhbk">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_student">Student</string>
+    <string name="title_activity_faculty">Faculty</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_add_message">AddMessage</string>
+    <string name="title_activity_view_message">ViewMessage</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="title_activity_edit_profile">EditProfile</string>
+    <string name="title_activity_viewmessage">Viewmessage</string>
+    <string name="title_activity_hod">HOD</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="invalid_name">Please Enter Name</string>
+    <string name="invalid_enrollment">Enter Valid Enrollment no</string>
+    <string name="invalid_email">Enter Valid Email-id</string>
+    <string name="invalid_passwordd">Enter more than six characters</string>
+    <string name="invalid_match">Password does not match</string>
+    <string name="invalid_passworddd">Must contain capital,small and symbols</string>
+    <string name="invalid_mobile">Enter Valid Mobile no</string>
+    <string name="invalid_passwordddd">Please Enter Password</string>
+</resources>

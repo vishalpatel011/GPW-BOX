@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:id="@+id/ll1"
+    android:layout_marginRight="5dp"
+    android:layout_margin="5dp">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_back"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/img_user"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:src="@mipmap/ic_launcher_round"
+            app:civ_border_width="0dp"
+            android:padding="2dp"
+            app:civ_border_color="#FFFFFF"/>
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Complaint"
+            android:textColor="@color/pink"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/img_user"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DDDepartmanet"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@+id/tv_title"
+            android:layout_marginLeft="180dp"/>
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_description"
+            android:layout_marginTop="12dp"
+            android:layout_below="@+id/tv_title"
+          android:gravity="center"
+            android:layout_marginLeft="40dp"
+            android:lineSpacingExtra="8dp"
+            android:text="Department"
+            android:textColor="@color/content_text_color" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_description"></TextView>
+    </RelativeLayout>
+</LinearLayout>

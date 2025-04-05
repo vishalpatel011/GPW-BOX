@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#161C29</color>
+    <color name="pink">#DA0035</color>
+    <color name="darkpink">#CE0137</color>
+    <color name="purple">#3a1c71</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="silver">#F3F3F3</color>
+    <color name="darksiver">#6D6D6D</color>
+    <color name="card_bg">#f6f6f6</color>
+    <color name="content_text_color">#999da4</color>
+    <color name="yellow">#9DFFFF00</color>
+    <color name="colorBack">#141A37</color>
+    <color name="colorTitle">#362742</color>
+    <color name="colorSubTitle">#c5c9cf</color>
+
+
+
+
+</resources>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminHome">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:orientation="vertical"
+            android:background="@drawable/admin_back"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="115dp"
+                android:layout_marginTop="30dp"
+               android:text="ADMIN"
+                android:textSize="50dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/pro"
+                android:gravity="center"
+                android:text=""
+                android:id="@+id/unicid"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+            </TextView>
+            <TextView
+                android:textStyle="bold"
+                android:layout_below="@+id/unicid"
+                android:text=""
+                android:gravity="center"
+                android:id="@+id/enrollment"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+            <TextView
+                android:layout_below="@+id/enrollment"
+                android:text=""
+                android:textStyle="bold"
+                android:gravity="center"
+                android:id="@+id/name"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_marginTop="-60dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:padding="10dp"
+            android:gravity="center">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/studentreq"
+                app:cardCornerRadius="10dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/pink">
+
+                <ImageView
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/stureq">
+
+                </ImageView>
+                <TextView
+                    android:layout_marginBottom="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Student Requests"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="11dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16dp"></TextView>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/facultyreq"
+                android:layout_marginLeft="15dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:cardCornerRadius="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/pink">
+                <ImageView
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/facreq">
+
+                </ImageView>
+                <TextView
+                    android:layout_marginBottom="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Faculty Requests"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="13dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16dp"></TextView>
+
+
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:padding="10dp"
+            android:gravity="center">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/viewmsg"
+                app:cardCornerRadius="10dp"
+                android:layout_width="150dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="150dp"
+                android:background="@color/pink"
+                >
+                <ImageView
+                    android:layout_marginTop="-3dp"
+                    android:padding="9dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/viewmessage">
+
+                </ImageView>
+                <TextView
+                    android:layout_marginBottom="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View Messages"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16dp"></TextView>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginLeft="15dp"
+                android:id="@+id/blacklist"
+                app:cardCornerRadius="10dp"
+                android:layout_width="150dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="150dp"
+                android:background="@color/pink"
+                >
+                <ImageView
+
+                    android:padding="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/blacklist">
+                </ImageView>
+                <TextView
+                    android:layout_marginBottom="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Blacklist"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="45dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16dp"></TextView>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:padding="10dp"
+            android:gravity="center">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/hodreg"
+                app:cardCornerRadius="10dp"
+                android:layout_width="150dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="150dp"
+                android:background="@color/pink"
+                >
+                <ImageView
+                    android:layout_marginTop="-3dp"
+                    android:padding="9dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/hodp">
+
+                </ImageView>
+                <TextView
+                    android:layout_marginBottom="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HOD Registration"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16dp"></TextView>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginLeft="15dp"
+                android:id="@+id/prinreg"
+                app:cardCornerRadius="10dp"
+                android:layout_width="150dp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="150dp"
+                android:background="@color/pink"
+                >
+                <ImageView
+
+                    android:padding="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/prinp">
+                </ImageView>
+                <TextView
+                    android:layout_marginBottom="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Principal Registarion"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="35dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="14dp"></TextView>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <Button
+            android:padding="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:id="@+id/adminlogout"
+            android:layout_marginTop="20dp"
+            android:text="LOGOUT"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style2"
+            >
+
+        </Button>
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

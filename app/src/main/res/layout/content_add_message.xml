@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AddMessage"
+    tools:showIn="@layout/activity_add_message"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Types of Message:"
+        android:layout_weight="1"
+        android:textSize="18dp"
+        android:textColor="@color/darkpink">
+
+    </TextView>
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="DATE:"
+            android:textSize="18dp"
+            android:textAlignment="textEnd"
+            android:id="@+id/date"
+            android:textColor="@color/darkpink"/>
+
+
+</LinearLayout>
+    <Spinner
+        android:id="@+id/msgtype"
+    android:layout_marginTop="15dp"
+    android:layout_width="380dp"
+    android:layout_height="wrap_content"
+    android:inputType="text"
+    android:entries="@array/msgtype"
+    android:drawableRight="@drawable/bottom_arrow"
+    android:background="@drawable/editbox">
+</Spinner>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message:"
+        android:textSize="18dp"
+        android:textColor="@color/darkpink">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/editbox"
+        android:id="@+id/msg">
+/>
+    </EditText>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mode:"
+        android:textSize="18dp"
+        android:textColor="@color/darkpink">
+
+    </TextView>
+    <Spinner
+        android:id="@+id/mode"
+        android:layout_marginTop="10dp"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:entries="@array/mode"
+        android:drawableRight="@drawable/bottom_arrow"
+        android:background="@drawable/editbox">
+    </Spinner>
+        <ImageView
+            android:id="@+id/img"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:src="@mipmap/ic_launcher_round" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+
+            <Button
+                android:id="@+id/btnbrowse"
+                android:layout_width="110dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/buttonstyleblue"
+                android:text="Attach Image"
+                android:textColor="@color/silver"
+                android:textSize="10dp">
+            </Button>
+            <Button
+                android:id="@+id/btnreset"
+                android:layout_width="110dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/buttonstyleblue"
+                android:text="Reset"
+                android:textColor="@color/silver"
+                android:textSize="10dp">
+            </Button>
+
+        </RelativeLayout>
+
+        <Button
+        android:id="@+id/send"
+        android:layout_width="150dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/buttonstyleblue"
+        android:drawableRight="@drawable/ic_send_black_24dp"
+        android:fontFamily="sans-serif"
+        android:text="SEND"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+    </LinearLayout>
+</ScrollView>

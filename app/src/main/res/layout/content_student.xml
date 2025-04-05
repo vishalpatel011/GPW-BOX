@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Student"
+    tools:showIn="@layout/activity_student"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Name"
+        android:background="@drawable/editbox"/>
+    <EditText
+        android:id="@+id/enno"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:hint="Enrollment no"
+        android:inputType="number"
+        android:background="@drawable/editbox"/>
+        <EditText
+            android:id="@+id/passw"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:background="@drawable/editbox"/>
+        <EditText
+            android:id="@+id/cfpass"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:background="@drawable/editbox"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Department"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/darksiver"
+            android:layout_marginTop="10dp"></TextView>
+    <Spinner
+        android:id="@+id/spinner12"
+        android:layout_gravity="center"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:entries="@array/dept"
+        android:drawableRight="@drawable/bottom_arrow"
+        android:background="@drawable/editbox"/>
+    <EditText
+        android:id="@+id/email"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/editbox"/>
+
+    <EditText
+        android:id="@+id/mobno"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:hint="Mobile-no"
+        android:inputType="number"
+        android:background="@drawable/editbox"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/txt_icard"
+            android:layout_width="107dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="22dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="I-card image"
+            android:textSize="16dp"></TextView>
+
+        <Button
+            android:id="@+id/btnbrowse"
+            android:layout_width="72dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttonstyleblue"
+            android:text="Browse"
+            android:textColor="@color/silver"
+            android:textSize="10dp">
+        </Button>
+        <Button
+            android:id="@+id/btnreset"
+            android:layout_width="72dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttonstyleblue"
+            android:text="Reset"
+            android:textColor="@color/silver"
+            android:textSize="10dp">
+        </Button>
+
+    </RelativeLayout>
+
+      <Button
+          android:id="@+id/reg"
+        android:layout_width="130dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonstyleblue"
+        android:drawableRight="@drawable/ic_send_black_24dp"
+        android:fontFamily="sans-serif"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+        <ImageView
+            android:layout_marginTop="15dp"
+            android:id="@+id/stu_icardpic"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="10dp"></ImageView>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

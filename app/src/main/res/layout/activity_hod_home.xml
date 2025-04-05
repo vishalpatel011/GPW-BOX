@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HodHome">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:orientation="vertical"
+                android:background="@drawable/admin_back"
+                >
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/hodpro"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="40dp"
+                    android:src="@mipmap/hodpro" />
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@+id/hodpro"
+                    android:gravity="center"
+                    android:text=""
+                    android:id="@+id/role"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    >
+
+                </TextView>
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_below="@+id/role"
+                    android:text=""
+                    android:gravity="center"
+                    android:id="@+id/name"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_below="@+id/name"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:id="@+id/enrollment"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TextView>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_marginTop="-60dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="5dp"
+                android:padding="10dp"
+                android:gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/viewmsg"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="330dp"
+                    android:layout_height="130dp"
+                    android:layout_marginRight="15dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/pink">
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="-190dp"
+                        android:src="@mipmap/viewmessage">
+
+                    </ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="View Messages"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="35dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20dp"></TextView>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginLeft="5dp"
+                android:padding="10dp"
+                android:gravity="center">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/stumsgreq"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="330dp"
+                    android:layout_height="130dp"
+                    android:layout_marginRight="15dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/pink"
+
+                    >
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="-190dp"
+                        android:src="@mipmap/stureq">
+
+                    </ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Student Requets"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="40dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20dp"></TextView>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginLeft="5dp"
+                android:padding="10dp"
+                android:gravity="center">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/hodprofile"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="330dp"
+                    android:layout_height="130dp"
+                    android:layout_marginRight="15dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/pink"
+                    >
+                    <ImageView
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginLeft="-190dp"
+                        android:layout_height="match_parent"
+                        android:src="@mipmap/mypro">
+
+                    </ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="My Profile"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20dp"></TextView>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+
+
+            <Button
+                android:padding="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:id="@+id/hodlogout"
+                android:layout_marginTop="10dp"
+                android:text="LOGOUT"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_style2"
+                >
+
+            </Button>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
